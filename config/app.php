@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -150,7 +150,8 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Cardumen\CuitCbuValidator\LaravelCuitCbuValidator::class,
+        Cardumen\ArgentinaProvinciasLocalidades\ArgentinaProvinciasLocalidades::class,
         /*
          * Application Service Providers...
          */

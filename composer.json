@@ -6,8 +6,12 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
+        "cardumen/argentina-provincias-localidades": "~1.1",
+        "cardumen/cuit-cbu-validator": "~2.1.4",
+        "cardumen/laravel-permissions": "~0.1",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
+        "laravel/passport": "^5.0",
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
